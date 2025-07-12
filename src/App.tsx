@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FilterType } from './types/Todo';
+import type { FilterType } from './types/Todo';
 import { useTodos } from './hooks/useTodos';
 import { AddTodo } from './components/AddTodo';
 import { TodoList } from './components/TodoList';

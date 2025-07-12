@@ -1,4 +1,4 @@
-import { FilterType } from '../types/Todo';
+import type { FilterType } from '../types/Todo';
 
 interface FilterProps {
   currentFilter: FilterType;

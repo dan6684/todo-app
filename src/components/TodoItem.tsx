@@ -1,5 +1,5 @@
-import { useState, KeyboardEvent } from 'react';
-import { Todo } from '../types/Todo';
+import { useState, type KeyboardEvent } from 'react';
+import type { Todo } from '../types/Todo';
 
 interface TodoItemProps {
   todo: Todo;
